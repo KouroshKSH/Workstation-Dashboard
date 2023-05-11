@@ -52,14 +52,26 @@ Lastly, the “Help” tab, which shows the text below:
 ---
 
 ## Personel & Product Lists
+The option to access the list of the personel and the products in the warehouse is constructed as followed :
+1. Firstly, a specific class will be made to use the OOP (object oriented programming) features, this will help later on with creating table views based on those specific types of data.
+2. Secondly, the text file containing the required data will be read and its information will be stored in a 2D string array to work with.
+3. Thirdly, the elements from the 2D array will be passed to their designated table columns. Based on their place, they will be shown in their respected column. Now this table will be set in a layout and then placed in a scene to be used in the stage. This way, there will be more options to work with the table or even manage the paddings of the window.
+
+> Since there is no data manipulation in this instance, no changes will be added to our original files and their content will be safe and secure.
 
 ---
 
 ## Editing Information
+Here, the user can manage their own profile details and change their `username`, `firstname`, `lastname`, `password` (which has a `confirm_new_password` function), `personal ID`, `birth date` and even their `education level` (or degree).
+
+> Note that some fields are not editable and cannot be changed, for instance the `position`, `job ID`, `payment type` and `payment value`, which can only be changed by a manager. Regarding whether or not two managers can edit eachother’s personal info or not, it will be addrressed later on.
 
 ---
 
 ## Adding/Removing Employess
+This feature is only allowed for *managers*, and even then, managers can only remove other sellers or keepers, and not eachother. Note that a new manager can be added to the company without a problem. In the adding phase, each and every sinlge field should be set by that manager in order to specify the new member correctly and prevent any possible short comings later on. Note that exception handling and errors have been managed here fully, from checking whether or not a field has been left empty or not, all the way to checking the length of the personal IDs or even checking if there are any non-suitable characters in a specific field, such as having a letter in the payment value field or others.
+
+After insterting the new data, the new member’s info will be appended to the end of the `personelData.txt` file in order to prevent any data loss problems or re-writing issues. Now moving on to the removal feature, a table will be shown to select the employee that is about to get fired, then by clicking the remove button, that person will be removed fully, from the table and in fact even from the `personelData.txt` file.
 
 ---
 

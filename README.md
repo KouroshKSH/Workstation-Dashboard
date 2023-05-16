@@ -11,10 +11,6 @@ This Java-based project is a software system designed to serve as a central plat
  <a href="" target="_blank">
   <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt"Eclipse Badge" />
  </a>
- &nbsp;
- <a href="https://lbesson.mit-license.org/" target="_blank">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT Badge" />
- </a>
 </p>
 
 ---
@@ -96,3 +92,15 @@ After insterting the new data, the new member’s info will be appended to the e
 The development process of this program has been an excellent learning experience for me. As a developer, I have gained valuable experience working with Java and object-oriented programming (OOP) principles. I also got to work with JavaFX, which enabled me to create a sleek and user-friendly graphical user interface (GUI) for the software.
 
 Although there were challenges along the way, such as working around bugs and fixing errors, the satisfaction of overcoming those challenges and seeing the final product made this project both enjoyable and rewarding. I am grateful for the opportunity to work on this project, and I believe it has helped me grow as a developer.
+
+---
+---
+
+# License
+This repository is licensed under the [MIT License](https://opensource.org/license/mit/).
+
+<p align="center">
+ <a href="https://lbesson.mit-license.org/" target="_blank">
+   <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT Badge" />
+ </a>
+</p>
